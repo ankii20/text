@@ -4,6 +4,7 @@ HTML is a markup language for describing web documents (web pages).
     A markup language is a set of markup tags
     HTML documents are described by HTML tags
     Each HTML tag describes different document content
+
 10 HTML Entity Crimes You Really Shouldn’t Commit
 
 
@@ -64,3 +65,15 @@ HTML Entity names vs entity number
 Every HTML entity can be written as its name value &copy; or as its numerical value &#169;. The main advantage of using an entity name is the character is easily recognisable as the name often relates to the actual entity in question (copy = copyright). However entity names aren’t as well supported as entity numbers, which have good all round support.
 
     
+
+In HTML we can can't create own tags;
+<html>
+<head>
+</head>
+<body>
+<from>
+<input type="text" name="kd" placeholder="Input your name">
+<input type ="button" value="Ok">
+</from>
+</body>
+</html>
