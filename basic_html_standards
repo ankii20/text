@@ -5,4 +5,13 @@ HTML is a markup language for describing web documents (web pages).
     HTML documents are described by HTML tags
     Each HTML tag describes different document content
 In HTML we can can't create own tags;
-
+<html>
+<head>
+</head>
+<body>
+<from>
+<input type="text" name="kd" placeholder="Input your name">
+<input type ="button" value="Ok">
+</from>
+</body>
+</html>
