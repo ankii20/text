@@ -9,6 +9,7 @@ In HTML we can can't create own tags;
 <head>
 </head>
 <body>
+ENTER YOUR FULL NAME:
 <from>
 <input type="text" name="kd" placeholder="Input your name">
 <input type ="button" value="Ok">
