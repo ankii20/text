@@ -4,4 +4,63 @@ HTML is a markup language for describing web documents (web pages).
     A markup language is a set of markup tags
     HTML documents are described by HTML tags
     Each HTML tag describes different document content
+10 HTML Entity Crimes You Really Shouldn’t Commit
 
+
+It has been over a couple of years since I posted my HTML tag and usability crimes posts, both of which are amongst the most popular articles here on Line25. There’s something about this title people just can’t resist! Let’s take a look at ten crimes you may be committing in your HTML content. These won’t exactly land you a life sentence, but I bet almost every one of us will be guilty of at least one of these petty crimes.
+
+Crime 1: Not converting your ampersands
+
+Ampersand
+
+One of the most common HTML validation errors I see when checking the code behind Sites of the Week features are unconverted ampersand characters. It’s easy to simply paste in your content from an external document and forget to transform your & characters into the correct &amp; HTML entity.
+Crime 2: Making your own ellipsis
+
+Ellipsis
+
+Did you know those three dots used to indicate a pause in a sentence are called an ‘ellipsis’? Rather than typing three periods or full stops it actually has it’s own glyph as the &hellip; HTML entity. The spacing between the dots in the entity is much tighter than the standard spacing between three full stops or periods. Remember, there’s only ever three dots (four in certain situations), don’t be the person who extends their ellipsis to 6+ dots………..
+Crime 3: Incorrect use of the em dash
+
+Em dash
+
+I’m definitely guilty of this one myself. I can never remember when to use Em dashes over En dashes, and what’s worse I tend to stick in a plain old hyphen which makes the crime even more serious! The Em dash or &mdash; in HTML entity format is typically used to separate a break of thought in a sentence.
+Crime 4: Incorrect use of the en dash
+
+En dash
+
+Similar to the Em dash crime, the En dash is another form of dash often misused in our body copy. The En dash or &ndash; in its HTML entity form is used to express a range of values or a distance, so essentially the En dash is placed where you would say the word “to” when talking about age ranges or a journey between two places.
+Crime 5: DIY Copyright symbol
+
+Copyright symbol
+
+I’m sure we’re all familiar with the international copyright symbol—the letter C with a circle around it ©. Rather than use this standardised symbol, sometimes people decide to construct their own with brackets, (c), probably because they couldn’t figure out the keyboard combination to insert the symbol in Word. Thankfully it’s much easier for web designers with the easy to remember HTML entity of &copy;.
+Crime 6: DIY Trademark symbols
+
+Trademark symbol
+
+Similar to the copyright symbol, the trademark symbol ™ has its own HTML entity glyph as &trade;, so there’s no need to design your own from styled <sup> or <span> tags.
+Crime 7: Plain text fractions
+
+Half fraction
+
+Another common addition to every day body text is the use of fractions to show quarter, half or three quarters in their shorthand, numeric format. I’m sure we’re all guilty of writing 1/4, 1/2 or 3/4 as opposed to their HTML entity counterparts of ¼, ½ & ¾ as &frac14;, &frac12; & &frac34;.
+Crime 8: Plain text mathematics symbols
+
+Divide symbol
+
+Common mathematical symbols such as add, minus, multiply and divide are also misused in general body text. The add and minus symbols not so much, as they’re easily created with their designated keyboard buttons, but multiply and divide are usually seen as the letter x, an asterisk *, or a slash /. × and ÷ symbols can be easily created with the HTML entities of &times; and &divide;.
+Crime 9: Supersized degree symbols
+
+Degree symbol
+
+The degree symbol is not the most common glyph used in every day body text, but it’s necessary when talking about temperature, angles or longitude/latitude map locations. We often see the degree format in disguise as a plain old letter o, but it can be created correctly using the &deg; HTML entity like so: 45°.
+Crime 10: Somewhat straight curly quotes
+
+Curly quotes
+
+A massive pet peeve for many, the incorrect use of quotes in textual content is one of the most common typographic errors on earth. The standard quotation marks entered with our keyboards are the numerical type which indicate a unit of measurement such as 5′10″. When quoting people, curly quotes should be used with the &ldquo; and &rdquo; entities: “Now I, Skeletor, am master of the universe”, or for single quotes the &lsquo; and &rsquo; entities.
+HTML Entity names vs entity number
+
+Every HTML entity can be written as its name value &copy; or as its numerical value &#169;. The main advantage of using an entity name is the character is easily recognisable as the name often relates to the actual entity in question (copy = copyright). However entity names aren’t as well supported as entity numbers, which have good all round support.
+
+    
