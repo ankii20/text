@@ -1,0 +1,7 @@
+This basically creates a new branch with a new timeline with no parent branches and calls it Master.
+
+Again, to read more about this specific command and the options, take a look at the in-depth documentation.
+
+Now we need to commit the changes.
+
+Run the following command to see all the new framework files that have not been committed to our repo yet:
